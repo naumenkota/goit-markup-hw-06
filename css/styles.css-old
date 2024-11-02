@@ -635,7 +635,7 @@ max-width: 264px;}
 
 .modal-close-button:hover,
 .modal-close-button:focus {
-    background-color: #404bbf;
+    background-color:  ;
     border: none
 }
 
