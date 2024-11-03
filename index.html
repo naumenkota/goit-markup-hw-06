@@ -133,8 +133,8 @@
       </div>
     </header>
 
-    <!--- 
     <main class="main-content">
+      <!---
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-section-title">
@@ -145,7 +145,7 @@
           </button>
         </div>
       </section>
------>
+
 
     <section class="services-section">
       <div class="container">
@@ -204,7 +204,9 @@
         </ul>
       </div>
     </section>
-    <!--- 
+    
+     
+
       <section class="team-section">
         <div class="container">
           <h2 class="team-section-title">Our Team</h2>
@@ -212,6 +214,8 @@
             <li class="team-section-item">
               <img
                 class="team-photos"
+                srcset="./images/1.jpg       1x,
+                        ./images/1-2x.jpg    2x"
                 src="./images/1.jpg"
                 alt="Mark Guerrero photo"
                 width="264"
@@ -255,6 +259,9 @@
             <li class="team-section-item">
               <img
                 class="team-photos"
+                srcset="./images/2.jpg     1x,
+                        ./images/2-2x.jpg  2x
+                "
                 src="./images/2.jpg"
                 alt="Tom Ford photo"
                 width="264"
@@ -298,6 +305,9 @@
             <li class="team-section-item">
               <img
                 class="team-photos"
+                 srcset="./images/3.jpg     1x,
+                        ./images/3-2x.jpg   2x
+                "
                 src="./images/3.jpg"
                 alt="Camila Garcia photo"
                 width="264"
@@ -341,6 +351,9 @@
             <li class="team-section-item">
               <img
                 class="team-photos"
+                 srcset="./images/4.jpg     1x,
+                        ./images/4-2x.jpg   2x
+                "
                 src="./images/4.jpg"
                 alt="Daniel Wilson photo"
                 width="264"
@@ -384,6 +397,7 @@
           </ul>
         </div>
       </section>
+      -->
 
       <section class="portfolio-section">
         <div class="container">
@@ -391,12 +405,23 @@
           <ul class="portfolio-section-list">
             <li class="portfolio-section-item">
               <div class="portfolio-wrapper-div">
-                <img
-                  src="./images/bankingapp.jpg"
-                  alt="Photo of the bank app"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/bankingapp.jpg   1x,
+                      ./images/bankingapp2x.jpg 2x
+                    "
+                  />
+
+                  <img
+                    src="./images/bankingapp.jpg"
+                    alt="Photo of the bank app"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
+
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -513,6 +538,7 @@
       </section>
     </main>
 
+    <!-- 
     <footer class="footer-page">
       <div class="container footer-div">
         <div class="footer-logo-div">
@@ -578,7 +604,7 @@
         </div>
       </div>
     </footer>
-    ---->
+     -->
 
     <div class="backdrop">
       <div class="modal">
