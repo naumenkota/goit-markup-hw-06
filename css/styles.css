@@ -720,6 +720,214 @@ max-width: 264px}
 
 /*-----------------------FOOTER------------------------------*/
 
+.footer-page {
+background-color: #2e2f42;
+padding-top: 96px;
+padding-bottom: 96px;
+}
+
+.footer-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-logo-div {
+    text-align: center;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;  
+}
+
+.footer-logo .footer-logo-part {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 288px;
+    margin-bottom: 72px;
+    text-align: start;   
+}
+
+.footer-social-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-left: 0;
+    margin-bottom: 72px; 
+}
+
+.footer-contact-list {
+    width: 40px;
+    height: 40px;
+}
+
+
+.footer-contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-contact-icon {
+    fill: #f4f4fd;
+}
+
+.footer-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.subcribe-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.footer-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 288px;
+    height: 40px;
+    background-color: transparent;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.footer-input::placeholder {
+    color #ffffff;
+}
+
+.icon-subscribe {
+    margin-left: 16px;
+    fill: #fff;
+}
+
+.footer-button {
+    border-radius: 4px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    background-color: #404BBF;
+}
+
+@media screen and (min-width: 768px) {
+.footer-page .container {
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
+.footer-div {
+    justify-content: flex-start;
+    gap: 72px  24px;
+}
+.footer-logo-div {
+    text-align: start;
+}
+.footer-text {
+    max-width: 264px;
+    margin-bottom: 0;
+}
+.footer-social-text {
+text-align: start;
+}
+.footer-contact{
+    margin-bottom: 0;
+
+}
+.subcribe-text{
+text-align: start;
+}
+.footer-input{
+    width: 264px;
+}
+.footer-form {
+    gap: 24px;
+}
+}
+
+@media screen and (min-width: 1158px) {
+.footer-page .container {
+        padding-left: 15px;
+        padding-right: 15px;}
+
+.footer-page {
+padding-top: 100px;
+padding-bottom: 100px; }
+
+.footer-logo-div {
+    margin-right: 120px;
+}
+.footer-div {
+    align-items: baseline;
+    flex-wrap: nowrap;
+    justify-content: start;
+    gap: 0;
+}
+.footer-social-div {
+    margin-right: 80px;
+}
+}
+
+
 
 /*--------------------------MODAL--------------------------*/
 
